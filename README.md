@@ -36,12 +36,10 @@
 
 ```
 metal-defect-synthesis/
-├── notebooks/
-│   ├── metal_defect_synthesis_llamagen_PoCFinal_.ipynb  # 1️⃣ VQGAN Fine-tuning
-│   ├── metal_defect_HaltonMaskGIT_PoCFinal_.ipynb       # 2️⃣ MaskGIT 학습
-│   └── metal_defect_gradio_demo_LlamaGen_Halton_PoCFinal_.ipynb  # 3️⃣ Gradio 데모
-├── docs/
-│   └── Metal_Defect_Synthesis_PRD_v2_0.pdf              # 상세 PRD
+├── metal_defect_synthesis_llamagen(PoCFinal).ipynb  # 1️⃣ VQGAN Fine-tuning
+├── metal_defect_HaltonMaskGIT(PoCFinal).ipynb       # 2️⃣ MaskGIT 학습
+├── metal_defect_gradio_demo_LlamaGen_Halton(PoCFinal).ipynb  # 3️⃣ Gradio 데모
+├── Metal_Defect_Synthesis_PRD_v2_0.pdf              # 상세 PRD
 └── README.md
 ```
 
@@ -55,26 +53,26 @@ metal-defect-synthesis/
 
 1. **VQGAN Fine-tuning** (약 2시간)
    ```
-   notebooks/metal_defect_synthesis_llamagen_PoCFinal_.ipynb
+   metal_defect_synthesis_llamagen(PoCFinal).ipynb
    ```
 
 2. **MaskGIT 학습** (약 2시간)
    ```
-   notebooks/metal_defect_HaltonMaskGIT_PoCFinal_.ipynb
+   metal_defect_HaltonMaskGIT(PoCFinal).ipynb 
    ```
 
 3. **Gradio 데모 실행**
    ```
-   notebooks/metal_defect_gradio_demo_LlamaGen_Halton_PoCFinal_.ipynb
+   metal_defect_gradio_demo_LlamaGen_Halton(PoCFinal).ipynb
    ```
 
 ## 📊 데이터셋
 
 | 데이터셋 | 이미지 수 | 출처 |
 |----------|-----------|------|
-| NEU-DET | 1,440장 | [Link](http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html) |
-| SD-saliency-900 | 900장 | [Link](https://github.com/prsn670/SD-saliency-900) |
-| X-SDD | 319장 | [Link](https://github.com/SDC-CVLAB/X-SDD) |
+| NEU-DET | 1,440장 | [Link](https://www.kaggle.com/datasets/kaustubhdikshit/neu-surface-defect-database) |
+| SD-saliency-900 | 900장 | [Link](https://www.kaggle.com/datasets/alex000kim/sdsaliency900) |
+| X-SDD | 319장 | [Link](https://www.kaggle.com/datasets/sayelabualigah/x-sdd) |
 | **합계** | **2,659장** | 8배 증강 → 21,272 샘플 |
 
 ### 결함 클래스 (6종)
