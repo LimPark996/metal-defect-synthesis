@@ -4,7 +4,6 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/metal-defect-synthesis/blob/main/notebooks/metal_defect_gradio_demo_LlamaGen_Halton_PoCFinal_.ipynb)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ⚠️ **PoC 단계** - 생성 품질 개선 작업 진행 중
 
@@ -115,10 +114,6 @@ metal-defect-synthesis/
 - [LlamaGen](https://github.com/FoundationVision/LlamaGen) - Autoregressive Image Generation
 - [Halton-MaskGIT](https://github.com/valeoai/Halton-MaskGIT) - ICLR 2025
 - [MaskGIT](https://arxiv.org/abs/2202.04200) - Masked Generative Image Transformer
-
-## 📄 License
-
-MIT License
 
 ---
 
