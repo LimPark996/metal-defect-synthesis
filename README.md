@@ -2,7 +2,6 @@
 
 > **LlamaGen VQGAN + Halton-MaskGIT 기반 금속 표면 결함 이미지 합성**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/metal-defect-synthesis/blob/main/notebooks/metal_defect_gradio_demo_LlamaGen_Halton_PoCFinal_.ipynb)
 [![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Yumi-Park996/metal-defect-synthesis)
 [![Hugging Face Models](https://img.shields.io/badge/🤗%20Hugging%20Face-Models-yellow)](https://huggingface.co/Yumi-Park996/metal-defect-checkpoints)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
